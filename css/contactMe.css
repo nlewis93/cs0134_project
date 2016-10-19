@@ -1,0 +1,45 @@
+
+label{
+	display:block;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+	
+	#formWrapper{
+	background-color: grey;
+	}
+}
+
+/*links links links links links links links links links links links links links links*/
+a:link{
+  text-decoration: none;
+  color: grey;
+}
+a:visited{
+  color: grey;   
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/*fonts fonts fonts fonts fonts fonts fonts fonts fonts*/
+@font-face {
+    font-family:'Walkway_Oblique_UltraBold';
+    src: url('../fonts/Walkway_Oblique_UltraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+p, ul, li, td, div { 
+  font-family: Walkway_Oblique_UltraBold;
+  font-variant: small-caps;
+}
+@font-face {
+    font-family:'Walkway_SemiBold';
+    src: url('../fonts/Walkway_SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+  font-family: Walkway_SemiBold;
+  font-variant: small-caps;
+}
